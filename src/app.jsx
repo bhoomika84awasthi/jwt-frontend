@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Signup from './pages/Signup';
-import Login from './pages/Login';
-import Dashboard from './pages/Dashboard';
-import PrivateRoute from './components/PrivateRoute';
+import Signup from './pages/signup';
+import Login from './pages/login';
+import Dashboard from './pages/dashboard';
+import PrivateRoute from './components/privateRoute';
 
 function App() {
   return (
