@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./app"; // <-- works whether App.js or App.jsx
 import "./styles.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
     <App />
-  </React.StrictMode>
+  </BrowserRouter>
 );
