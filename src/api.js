@@ -5,4 +5,4 @@ const API = axios.create({
  || 'http://localhost:5000/api'
 });
 
-export default api;
+export default API;
